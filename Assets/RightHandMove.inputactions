@@ -1,0 +1,34 @@
+{
+    "name": "RightHandMove",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "73490568-b3d9-4c4e-ab7a-9498b208df6e",
+            "actions": [
+                {
+                    "name": "New action1",
+                    "type": "Value",
+                    "id": "8009f7e9-eed6-4e87-8f9b-6f6c639dcbcc",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "acd06cf1-f6f0-4a52-8581-89c02bac36f2",
+                    "path": "<OculusTouchController>{RightHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
